@@ -14,5 +14,9 @@ for palabras in lista_palabras: #Increible que en python esto sea suficiente par
     else:
         diccionario_palabras[palabras] = 1
     
+for clave, valor in diccionario_palabras.items():
     
-print (diccionario_palabras)
+    print(clave, valor)
+    
+   
+    
