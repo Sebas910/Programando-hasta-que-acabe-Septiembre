@@ -1,5 +1,6 @@
 import random
 import subprocess
+import ctypes
 
 def generador_numeros(lista , numero):
     
@@ -35,6 +36,7 @@ listarda = []
 
 generador_numeros(listarda, 10000)
 
-print(listarda)
+
 print("primos encontrados -->",Detector_primos(listarda))
 
+ctypes.windll.user32.MessageBoxW(0, "el diablo pero que maldito teni","VIRUS ENCONTRADO!" ,0x10)
